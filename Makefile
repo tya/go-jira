@@ -16,6 +16,11 @@ vet: ## Runs go vet (to detect suspicious constructs).
 fmt: ## Runs go fmt (to check for go coding guidelines).
 	gofmt -d -s .
 
+.PHONY: cover
+cover: ## Runs go cover (to check code coverage of tests)
+	go test -coverprofile=.cover ./...
+	go tool cover -html=.cover
+
 .PHONY: staticcheck
 staticcheck: ## Runs static analysis to prevend bugs, foster code simplicity, performance and editor integration.
 	go get -u honnef.co/go/tools/cmd/staticcheck

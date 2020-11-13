@@ -1,0 +1,36 @@
+[
+  {
+    "ID": 1234,
+    "folderName": "testfolder",
+    "folderDescription": "created test folder for this cycle",
+    "sprintId": 123,
+    "createdBy": "dummyUser",
+    "executionSummaries": {
+      "executionSummary": [
+        {
+          "count": 0,
+          "statusKey": -1,
+          "statusName": "UNEXECUTED",
+          "statusColor": "#A0A0A0"
+        }
+      ]
+    }
+  },
+  {
+    "ID": 5678,
+    "folderName": "testfolder2",
+    "folderDescription": "created second test folder for this cycle",
+    "sprintId": 123,
+    "createdBy": "dummyUser",
+    "executionSummaries": {
+      "executionSummary": [
+        {
+          "count": 0,
+          "statusKey": -1,
+          "statusName": "UNEXECUTED",
+          "statusColor": "#A0A0A0"
+        }
+      ]
+    }
+  }
+]
