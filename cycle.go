@@ -53,7 +53,7 @@ type Cycle struct {
 	VersionName          string `json:"versionName,omitempty"`
 	ExecutionSummaries   struct {
 		ExecutionSummary []interface{} `json:"executionSummary,omitempty"`
-	} `json:"executionSummaries,omitempty"`
+	} `json:"-"`
 }
 
 type ExecutionSummary struct {
