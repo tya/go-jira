@@ -12,7 +12,7 @@ const (
 )
 
 var (
-	folderEndpointFormat = "/rest/zapi/latest/cycle/%d/folder"
+	folderEndpointFormat = "/rest/zapi/latest/cycle/%d/folders"
 	folderEndpoint       = "/rest/zapi/latest/folder/create"
 )
 
